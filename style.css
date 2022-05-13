@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.4rem;
+  background-color: #EAEAEA;
+}
+.container {
+  width: 80%;
+  margin: 5rem auto;
+  background-color: white;
+  padding: 5rem 4rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+header {
+  margin-bottom: 4rem;
+}
+header h1 {
+  color: #1B1B1B;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+header img {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+figure figcaption {
+  color: #8F8F8F;
+  float: right;
+  font-size: 1.2rem;
+
+}
+.ingredients {
+  margin-bottom: 4rem;
+}
+.ingredients h2 {
+  color: #1B1B1B;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.ingredients ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-position: inside;
+  color: #39393A;
+  font-size: 1.6rem;
+}
+.how-to {
+  margin-bottom: 4rem;
+}
+.how-to h2 {
+  color: #1B1B1B;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.how-to ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-position: inside;
+  color: #39393A;
+  font-size: 1.6rem;
+}
+aside {
+  margin-bottom: 4rem;
+}
+aside h2 {
+  text-align: center;
+  color: #1B1B1B;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+aside p {
+  color: #39393A;
+  font-size: 1.6rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+}
+footer svg path {
+  stroke: #39393A;
+}
+footer svg:hover {
+  border: 0.1rem solid #39393A;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+}
